@@ -1,1 +1,32 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+# Xcode workspaces and project folders
+<<<<<<< HEAD
+<<<<<<< HEAD
+*.xcodeproje
+=======
 *.xcodeproj
+*.xcworkspace
+>>>>>>> 63cbe52... ignore
+=======
+*.xcodeproj/
+>>>>>>> 8c129a3... ignore xcode
+=======
+/cpp_thread_pool.xcodeproj
+>>>>>>> 2f3b8fd... ignore
+=======
+# Xcode workspaces and project folders
+*.xcodeproj
+*.xcworkspace
+>>>>>>> 63cbe52... ignore
+=======
+\.DS_store
+
+# Ignore cruft in the project bundle
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+
+# Ignore build products folder
+build/
+>>>>>>> ed3a3ec... Update .gitignore
